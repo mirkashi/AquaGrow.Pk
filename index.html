@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="AquaGrow - Premium Aquaponics Solutions for sustainable farming. Shop for home, school, and commercial aquaponics systems.">
+    <meta name="theme-color" content="#2ecc71">
+    <title>AquaGrow - Premium Aquaponics Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Aqua<span>Grow</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <a href="#" class="cart-icon" id="cart-icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                <a href="#" class="favorites-icon" id="favorites-icon"><i class="fas fa-heart"></i><span class="favorites-count">0</span></a>
+                <a href="#" class="user-icon" id="user-icon"><i class="fas fa-user"></i></a>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Sustainable Farming for the Future</h1>
+                <p>Premium aquaponics systems for homes, schools, and commercial use</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Shop Now</a>
+                    <a href="#learn" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Slider Section -->
+    <section class="image-slider-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Aquaponics Systems</h2>
+                <p>Explore our innovative and sustainable farming solutions</p>
+            </div>
+            <div class="image-slider-container">
+                <div class="image-slider">
+                    <div class="slide">
+                        <img src="image/1.jpg" alt="Home Aquaponics System">
+                        <div class="slide-caption">
+                            <h3>Home Aquaponics System</h3>
+                            <p>Perfect for families looking to grow their own food</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="image/3.jpg" alt="Commercial Aquaponics System">
+                        <div class="slide-caption">
+                            <h3>Commercial System</h3>
+                            <p>Designed for restaurants and small businesses</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="image/5.jpg" alt="Educational Aquaponics System">
+                        <div class="slide-caption">
+                            <h3>Educational System</h3>
+                            <p>Perfect for schools and learning environments</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="image/h.jpg" alt="Vertical Farming System">
+                        <div class="slide-caption">
+                            <h3>Vertical Farming</h3>
+                            <p>Maximize your growing space with vertical solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                        <span class="dot" data-slide="3"></span>
+                    </div>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Eco-Friendly</h3>
+                    <p>Uses 90% less water than traditional farming</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Free Shipping</h3>
+                    <p>On all orders over $100</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Expert advice always available</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Warranty</h3>
+                    <p>2-year warranty on all systems</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Products</h2>
+                <p>Discover our most popular aquaponics solutions</p>
+            </div>
+            <div class="product-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="systems">Systems</button>
+                <button class="filter-btn" data-filter="accessories">Accessories</button>
+                <button class="filter-btn" data-filter="plants">Plants & Fish</button>
+            </div>
+            <div class="product-grid">
+                <div class="product-card" data-category="systems">
+                    <div class="product-badge">Best Seller</div>
+                    <div class="product-image">
+                        <img src="image/AquaSprouts-Garden_480x480.webp" alt="Home Aquaponics System">
+                        <div class="product-actions">
+                            <button class="action-btn add-to-favorites" data-id="1" data-name="Home Aquaponics System" data-price="299.99" data-image="https://via.placeholder.com/300x300"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart" data-id="1" data-name="Home Aquaponics System" data-price="299.99" data-image="https://via.placeholder.com/300x300"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn quick-view" data-id="1"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Home Aquaponics System</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(42)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$299.99</span>
+                            <span class="old-price">$349.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="systems">
+                    <div class="product-image">
+                        <img src="image/Achieving-Excellence-in-Commercial-Aquaponics-Systems.jpg" alt="Commercial Aquaponics System">
+                        <div class="product-actions">
+                            <button class="action-btn add-to-favorites" data-id="2" data-name="Commercial Aquaponics System" data-price="1299.99" data-image="https://via.placeholder.com/300x300"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart" data-id="2" data-name="Commercial Aquaponics System" data-price="1299.99" data-image="https://via.placeholder.com/300x300"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn quick-view" data-id="2"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Commercial Aquaponics System</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(18)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$1,299.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="accessories">
+                    <div class="product-badge">New</div>
+                    <div class="product-image">
+                        <img src="image/water testing kit.jpg" alt="Water Testing Kit">
+                        <div class="product-actions">
+                            <button class="action-btn add-to-favorites" data-id="3" data-name="Water Testing Kit" data-price="49.99" data-image="https://via.placeholder.com/300x300"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart" data-id="3" data-name="Water Testing Kit" data-price="49.99" data-image="https://via.placeholder.com/300x300"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn quick-view" data-id="3"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Water Testing Kit</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(7)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$49.99</span>
+                            <span class="old-price">$59.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="plants">
+                    <div class="product-image">
+                        <img src="image/starter plante kit.webp" alt="Starter Plant Kit">
+                        <div class="product-actions">
+                            <button class="action-btn add-to-favorites" data-id="4" data-name="Starter Plant Kit" data-price="29.99" data-image="https://via.placeholder.com/300x300"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart" data-id="4" data-name="Starter Plant Kit" data-price="29.99" data-image="https://via.placeholder.com/300x300"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn quick-view" data-id="4"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Starter Plant Kit</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(23)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$29.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="#" class="btn btn-outline">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="image/Aqua_Gro_Product_Info_1200x1200.webp" alt="About AquaGrow">
+                </div>
+                <div class="about-text">
+                    <h2>About AquaGrow</h2>
+                    <p>AquaGrow is a leading provider of aquaponics systems and solutions. We combine aquaculture (raising aquatic animals) with hydroponics (cultivating plants in water) in a symbiotic environment.</p>
+                    <p>Our mission is to promote sustainable farming practices that conserve water, eliminate the need for chemical fertilizers, and provide fresh, organic produce and fish.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5,000+</h3>
+                            <p>Systems Sold</p>
+                        </div>
+                        <div class="stat">
+                            <h3>98%</h3>
+                            <p>Customer Satisfaction</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <p>Read testimonials from satisfied AquaGrow users</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The AquaGrow system has transformed our backyard into a sustainable food source. We harvest fresh vegetables and fish weekly!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/60x60" data-src="https://via.placeholder.com/60x60" alt="Customer">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <p>Home Gardener</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"As a restaurant owner, our commercial AquaGrow system provides us with fresh herbs and fish daily. Our customers love the farm-to-table experience."</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/60x60" data-src="https://via.placeholder.com/60x60" alt="Customer">
+                        <div>
+                            <h4>Michael Chen</h4>
+                            <p>Restaurant Owner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">"We installed an AquaGrow system in our school, and it's been an incredible educational tool for our students to learn about sustainable agriculture."</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/60x60" data-src="https://via.placeholder.com/60x60" alt="Customer">
+                        <div>
+                            <h4>Lisa Rodriguez</h4>
+                            <p>Science Teacher</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Get the latest updates, tips, and special offers delivered directly to your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <h2>Aqua<span>Grow</span></h2>
+                    </div>
+                    <p>Sustainable aquaponics solutions for a greener future.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Aqua Lane, Green City, 12345</li>
+                        <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+                        <li><i class="fas fa-envelope"></i> info@aquagrow.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AquaGrow.All Rights Reserved.</p>
+                <div class="payment-icons">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="modal" id="cart-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Your Shopping Cart</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="cart-items">
+                    <!-- Cart items will be dynamically added here -->
+                </div>
+                <div class="cart-summary">
+                    <div class="cart-total">
+                        <span>Total:</span>
+                        <span id="cart-total-price">$0.00</span>
+                    </div>
+                    <div class="cart-buttons">
+                        <button class="btn btn-secondary" id="clear-cart">Clear Cart</button>
+                        <button class="btn btn-primary" id="checkout-btn">Checkout</button>
+                    </div>
+                </div>
+                <div id="empty-cart-message">
+                    <p>Your cart is empty.</p>
+                    <a href="#products" class="btn btn-primary">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Favorites Modal -->
+    <div class="modal" id="favorites-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Your Favorites</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="favorite-items">
+                    <!-- Favorite items will be dynamically added here -->
+                </div>
+                <div id="empty-favorites-message">
+                    <p>You haven't added any favorites yet.</p>
+                    <a href="#products" class="btn btn-primary">Browse Products</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Login to Your Account</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="login-form" class="auth-form">
+                    <div class="form-message" id="login-message"></div>
+                    <div class="form-group">
+                        <label for="login-email">Email</label>
+                        <input type="email" id="login-email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <div class="password-input-container">
+                            <input type="password" id="login-password" placeholder="Enter your password" required>
+                            <button type="button" class="toggle-password"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="form-options">
+                        <div class="remember-me">
+                            <input type="checkbox" id="remember-me">
+                            <label for="remember-me">Remember me</label>
+                        </div>
+                        <a href="#" id="forgot-password-link">Forgot password?</a>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    <div class="auth-separator">
+                        <span>OR</span>
+                    </div>
+                    <button type="button" class="btn btn-outline btn-block" id="register-link">Create New Account</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div class="modal" id="register-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Create an Account</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="register-form" class="auth-form">
+                    <div class="form-message" id="register-message"></div>
+                    <div class="form-group">
+                        <label for="register-name">Full Name</label>
+                        <input type="text" id="register-name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-email">Email</label>
+                        <input type="email" id="register-email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-password">Password</label>
+                        <div class="password-input-container">
+                            <input type="password" id="register-password" placeholder="Create a password" required>
+                            <button type="button" class="toggle-password"><i class="fas fa-eye"></i></button>
+                        </div>
+                        <div class="password-strength">
+                            <div class="strength-meter">
+                                <div class="strength-meter-fill" id="strength-meter-fill"></div>
+                            </div>
+                            <div class="strength-text" id="strength-text">Password strength</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-confirm-password">Confirm Password</label>
+                        <div class="password-input-container">
+                            <input type="password" id="register-confirm-password" placeholder="Confirm your password" required>
+                            <button type="button" class="toggle-password"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="terms-checkbox">
+                            <input type="checkbox" id="terms-checkbox" required>
+                            <label for="terms-checkbox">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Create Account</button>
+                    <div class="auth-separator">
+                        <span>OR</span>
+                    </div>
+                    <button type="button" class="btn btn-outline btn-block" id="login-link">Already Have an Account</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Forgot Password Modal -->
+    <div class="modal" id="forgot-password-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Reset Your Password</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="forgot-password-form" class="auth-form">
+                    <div class="form-message" id="forgot-password-message"></div>
+                    <p class="form-description">Enter your email address and we'll send you a link to reset your password.</p>
+                    <div class="form-group">
+                        <label for="forgot-email">Email</label>
+                        <input type="email" id="forgot-email" placeholder="Enter your email" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Reset Link</button>
+                    <div class="auth-separator">
+                        <span>OR</span>
+                    </div>
+                    <button type="button" class="btn btn-outline btn-block" id="back-to-login">Back to Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- User Profile Dropdown -->
+    <div class="user-dropdown" id="user-dropdown">
+        <div class="user-dropdown-header">
+            <div class="user-avatar">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="user-info">
+                <h4 id="user-name">User Name</h4>
+                <p id="user-email">user@example.com</p>
+            </div>
+        </div>
+        <ul class="user-dropdown-menu">
+            <li><a href="#" id="profile-link"><i class="fas fa-user-circle"></i> My Profile</a></li>
+            <li><a href="#" id="orders-link"><i class="fas fa-shopping-bag"></i> My Orders</a></li>
+            <li><a href="#" id="settings-link"><i class="fas fa-cog"></i> Settings</a></li>
+            <li class="divider"></li>
+            <li><a href="#" id="logout-link"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+        </ul>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="modal" id="checkout-modal">
+        <div class="modal-content checkout-modal-content">
+            <div class="modal-header">
+                <h3>Checkout</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="checkout-steps">
+                    <div class="checkout-step active" data-step="1">
+                        <span class="step-number">1</span>
+                        <span class="step-text">Shipping</span>
+                    </div>
+                    <div class="checkout-step" data-step="2">
+                        <span class="step-number">2</span>
+                        <span class="step-text">Payment</span>
+                    </div>
+                    <div class="checkout-step" data-step="3">
+                        <span class="step-number">3</span>
+                        <span class="step-text">Review</span>
+                    </div>
+                </div>
+                
+                <!-- Step 1: Shipping Information -->
+                <div class="checkout-section" id="shipping-section">
+                    <h4>Shipping Information</h4>
+                    <form id="shipping-form" class="checkout-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="city">City</label>
+                                <input type="text" id="city" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="state">State/Province</label>
+                                <input type="text" id="state" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="zip">Zip/Postal Code</label>
+                                <input type="text" id="zip" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="selected-city">City</label>
+                                <select id="selected-city" required>
+                                    <option value="">Select city</option>
+                                    <option value="NY">New York</option>
+                                    <option value="LA">Los Angeles</option>
+                                    <option value="CHI">Chicago</option>
+                                    <option value="HOU">Houston</option>
+                                    <option value="PHX">Phoenix</option>
+                                    <option value="PHI">Philadelphia</option>
+                                    <option value="SAN">San Antonio</option>
+                                    <option value="SD">San Diego</option>
+                                    <option value="DAL">Dallas</option>
+                                    <option value="SF">San Francisco</option>
+                                    <!-- Add more cities as needed -->
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="shipping-method">Shipping Method</label>
+                            <div class="shipping-options">
+                                <div class="shipping-option">
+                                    <input type="radio" name="shipping" id="standard" value="standard" checked>
+                                    <label for="standard">
+                                        <span class="shipping-name">Standard Shipping</span>
+                                        <span class="shipping-price">$5.99</span>
+                                        <span class="shipping-time">5-7 Business Days</span>
+                                    </label>
+                                </div>
+                                <div class="shipping-option">
+                                    <input type="radio" name="shipping" id="express" value="express">
+                                    <label for="express">
+                                        <span class="shipping-name">Express Shipping</span>
+                                        <span class="shipping-price">$12.99</span>
+                                        <span class="shipping-time">2-3 Business Days</span>
+                                    </label>
+                                </div>
+                                <div class="shipping-option">
+                                    <input type="radio" name="shipping" id="overnight" value="overnight">
+                                    <label for="overnight">
+                                        <span class="shipping-name">Overnight Shipping</span>
+                                        <span class="shipping-price">$24.99</span>
+                                        <span class="shipping-time">Next Business Day</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout-buttons">
+                            <button type="button" class="btn btn-outline" id="back-to-cart">Back to Cart</button>
+                            <button type="submit" class="btn btn-primary" id="to-payment">Continue to Payment</button>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Step 2: Payment Method -->
+                <div class="checkout-section" id="payment-section" style="display: none;">
+                    <h4>Payment Method</h4>
+                    <div class="payment-options">
+                        <div class="payment-option active" data-payment="card">
+                            <input type="radio" name="payment" id="credit-card" checked>
+                            <label for="credit-card">
+                                <i class="far fa-credit-card"></i>
+                                Credit/Debit Card
+                            </label>
+                        </div>
+                        <div class="payment-option" data-payment="paypal">
+                            <input type="radio" name="payment" id="paypal">
+                            <label for="paypal">
+                                <i class="fab fa-paypal"></i>
+                                PayPal
+                            </label>
+                        </div>
+                        <div class="payment-option" data-payment="apple">
+                            <input type="radio" name="payment" id="apple-pay">
+                            <label for="apple-pay">
+                                <i class="fab fa-apple-pay"></i>
+                                Apple Pay
+                            </label>
+                        </div>
+                        <div class="payment-option" data-payment="google">
+                            <input type="radio" name="payment" id="google-pay">
+                            <label for="google-pay">
+                                <i class="fab fa-google-pay"></i>
+                                Google Pay
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Credit Card Form -->
+                    <form id="card-payment-form" class="payment-form">
+                        <div class="form-group">
+                            <label for="card-number">Card Number</label>
+                            <div class="card-input-container">
+                                <input type="text" id="card-number" placeholder="1234 5678 9012 3456" maxlength="19" required>
+                                <div class="card-icons">
+                                    <i class="fab fa-cc-visa"></i>
+                                    <i class="fab fa-cc-mastercard"></i>
+                                    <i class="fab fa-cc-amex"></i>
+                                    <i class="fab fa-cc-discover"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="card-name">Cardholder Name</label>
+                                <input type="text" id="card-name" placeholder="Name on card" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="expiry-date">Expiry Date</label>
+                                <input type="text" id="expiry-date" placeholder="MM/YY" maxlength="5" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cvv">CVV</label>
+                                <input type="text" id="cvv" placeholder="123" maxlength="4" required>
+                                <div class="cvv-info">
+                                    <i class="fas fa-question-circle"></i>
+                                    <div class="cvv-tooltip">3 or 4 digit security code on the back of your card</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="save-card-checkbox">
+                                <input type="checkbox" id="save-card">
+                                <label for="save-card">Save card for future purchases</label>
+                            </div>
+                        </div>
+                    </form>
+                    
+                    <!-- PayPal Form -->
+                    <div id="paypal-form" class="payment-form" style="display: none;">
+                        <div class="paypal-info">
+                            <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png" alt="PayPal Logo">
+                            <p>You will be redirected to PayPal to complete your payment securely.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Apple Pay Form -->
+                    <div id="apple-pay-form" class="payment-form" style="display: none;">
+                        <div class="apple-pay-info">
+                            <i class="fab fa-apple-pay fa-3x"></i>
+                            <p>You will be prompted to complete your payment with Apple Pay.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Google Pay Form -->
+                    <div id="google-pay-form" class="payment-form" style="display: none;">
+                        <div class="google-pay-info">
+                            <i class="fab fa-google-pay fa-3x"></i>
+                            <p>You will be prompted to complete your payment with Google Pay.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="checkout-buttons">
+                        <button type="button" class="btn btn-outline" id="back-to-shipping">Back to Shipping</button>
+                        <button type="button" class="btn btn-primary" id="to-review">Continue to Review</button>
+                    </div>
+                </div>
+                
+                <!-- Step 3: Order Review -->
+                <div class="checkout-section" id="review-section" style="display: none;">
+                    <h4>Review Your Order</h4>
+                    <div class="order-summary">
+                        <div class="order-items">
+                            <h5>Order Items</h5>
+                            <div id="review-items">
+                                <!-- Order items will be dynamically added here -->
+                            </div>
+                        </div>
+                        <div class="order-details">
+                            <h5>Order Details</h5>
+                            <div class="shipping-address">
+                                <h6>Shipping Address</h6>
+                                <p id="review-address"></p>
+                            </div>
+                            <div class="payment-method">
+                                <h6>Payment Method</h6>
+                                <p id="review-payment"></p>
+                            </div>
+                        </div>
+                        <div class="order-totals">
+                            <div class="total-row">
+                                <span>Subtotal:</span>
+                                <span id="review-subtotal">$0.00</span>
+                            </div>
+                            <div class="total-row">
+                                <span>Shipping:</span>
+                                <span id="review-shipping">$0.00</span>
+                            </div>
+                            <div class="total-row">
+                                <span>Tax:</span>
+                                <span id="review-tax">$0.00</span>
+                            </div>
+                            <div class="total-row grand-total">
+                                <span>Total:</span>
+                                <span id="review-total">$0.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkout-buttons">
+                        <button type="button" class="btn btn-outline" id="back-to-payment">Back to Payment</button>
+                        <button type="button" class="btn btn-primary" id="place-order">Place Order</button>
+                    </div>
+                </div>
+                
+                <!-- Order Confirmation -->
+                <div class="checkout-section" id="confirmation-section" style="display: none;">
+                    <div class="order-confirmation">
+                        <div class="confirmation-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h4>Thank You for Your Order!</h4>
+                        <p>Your order has been placed successfully.</p>
+                        <div class="order-number">
+                            <span>Order Number:</span>
+                            <span id="order-number"></span>
+                        </div>
+                        <p>A confirmation email has been sent to <span id="confirmation-email"></span></p>
+                        <div class="confirmation-buttons">
+                            <button type="button" class="btn btn-outline" id="view-orders">View My Orders</button>
+                            <button type="button" class="btn btn-primary" id="continue-shopping">Continue Shopping</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- EmailJS Integration -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // Replace with your actual EmailJS public key
+            emailjs.init("28hKOSGxy45nQ3rD8");
+        })();
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html> 
